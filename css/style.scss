@@ -1,3 +1,50 @@
+// 2018 palettes
+$custom-orange2018:  #ff7b25;
+$custom-red2018:  #d64161;
+$custom-yellow2018: #feb236;
+$custom-violet2018: #6b5b95;
+// Beach palettes
+$custom-greenBeach: #588c7e;
+$custom-yellowBeach: #f2e394;
+$custom-orangeBeach: #f2ae72;
+$custom-redBeach: #d96459;
+
 body {
-  background-color: lightblue;
+  font-family: Roboto, sans-serif, Arial;
+  padding-bottom: 1000px;
+}
+.bg-customPrimary {
+  background-color: $custom-greenBeach;
+}
+.bg-customSecondary {
+  background-color: $custom-yellowBeach;
+}
+.bg-customTertiary {
+  background-color: $custom-orangeBeach;
+}
+.bg-customFourth {
+  background-color: $custom-redBeach;
+}
+.bg-white {
+  background-color: white;
+}
+
+.forgotAccount {
+  color: blue;
+  font-weight: 400;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+#signinInstead {
+  color: rgb(40, 40, 250);
+  font-weight: 400;
+  &:hover {
+    cursor: pointer;    
+  }
+}
+
+#homeIcon {
+  width: 170px;
 }
