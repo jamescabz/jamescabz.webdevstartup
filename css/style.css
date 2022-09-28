@@ -1,26 +1,72 @@
 body {
   font-family: Roboto, sans-serif, Arial;
-  padding-bottom: 1000px;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.image-carousel {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#colleges {
+  display: flex;
+  justify-content: center;
 }
 
 .bg-customPrimary {
-  background-color: #588c7e;
+  background-color: #f8f1e5;
 }
 
 .bg-customSecondary {
-  background-color: #f2e394;
+  background-color: #2f3131;
 }
 
 .bg-customTertiary {
-  background-color: #f2ae72;
+  background-color: #f9ba32;
 }
 
 .bg-customFourth {
-  background-color: #d96459;
+  background-color: #426e86;
+}
+
+.bg-customFifth {
+  background-color: #f0810f;
 }
 
 .bg-white {
   background-color: white;
+}
+
+.text-customPrimary {
+  color: #f8f1e5;
+}
+
+.text-customSecondary {
+  color: #2f3131;
+}
+
+.text-customTertiary {
+  color: #f9ba32;
+}
+
+.text-customFourth {
+  color: #426e86;
+}
+
+.text-customFifth {
+  color: #f0810f;
 }
 
 .forgotAccount {
@@ -42,4 +88,9 @@ body {
 
 #homeIcon {
   width: 170px;
+}
+
+.bootcamp-img {
+  width: 50%;
+  height: 150px;
 }/*# sourceMappingURL=style.css.map */

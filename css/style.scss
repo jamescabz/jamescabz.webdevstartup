@@ -1,32 +1,78 @@
 // 2018 palettes
-$custom-orange2018:  #ff7b25;
-$custom-red2018:  #d64161;
+$custom-orange2018: #ff7b25;
+$custom-red2018: #d64161;
 $custom-yellow2018: #feb236;
 $custom-violet2018: #6b5b95;
+
 // Beach palettes
 $custom-greenBeach: #588c7e;
 $custom-yellowBeach: #f2e394;
 $custom-orangeBeach: #f2ae72;
 $custom-redBeach: #d96459;
 
+//colorPalette
+$custom-primary1: #f8f1e5;
+$custom-secondary1: #2f3131;
+$custom-tertiary1: #f9ba32;
+$custom-fourth1: #426e86;
+$custom-fifth1: #f0810f;
+
 body {
   font-family: Roboto, sans-serif, Arial;
-  padding-bottom: 1000px;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+ul {
+  li {
+    list-style: none;
+  }
+}
+.image-carousel {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#colleges {
+  display: flex;
+  justify-content: center;
 }
 .bg-customPrimary {
-  background-color: $custom-greenBeach;
+  background-color: $custom-primary1;
 }
 .bg-customSecondary {
-  background-color: $custom-yellowBeach;
+  background-color: $custom-secondary1;
 }
 .bg-customTertiary {
-  background-color: $custom-orangeBeach;
+  background-color: $custom-tertiary1;
 }
 .bg-customFourth {
-  background-color: $custom-redBeach;
+  background-color: $custom-fourth1;
+}
+.bg-customFifth {
+  background-color: $custom-fifth1;
 }
 .bg-white {
   background-color: white;
+}
+.text-customPrimary {
+  color: $custom-primary1;
+}
+.text-customSecondary {
+  color: $custom-secondary1;
+}
+.text-customTertiary {
+  color: $custom-tertiary1;
+}
+.text-customFourth {
+  color: $custom-fourth1;
+}
+.text-customFifth {
+  color: $custom-fifth1;
 }
 
 .forgotAccount {
@@ -41,10 +87,14 @@ body {
   color: rgb(40, 40, 250);
   font-weight: 400;
   &:hover {
-    cursor: pointer;    
+    cursor: pointer;
   }
 }
-
 #homeIcon {
   width: 170px;
+}
+
+.bootcamp-img {
+  width: 50%;
+  height: 150px;
 }
