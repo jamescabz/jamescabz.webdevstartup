@@ -1,30 +1,3 @@
-body {
-  font-family: Roboto, sans-serif, Arial;
-}
-
-body::before {
-  display: block;
-  content: "";
-  height: 60px;
-}
-
-ul li {
-  list-style: none;
-}
-
-.image-carousel {
-  width: 600px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#colleges {
-  display: flex;
-  justify-content: center;
-}
-
 .bg-customPrimary {
   background-color: #f8f1e5;
 }
@@ -69,6 +42,27 @@ ul li {
   color: #f0810f;
 }
 
+body {
+  font-family: Roboto, sans-serif, Arial;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.image-carousel {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .forgotAccount {
   color: blue;
   font-weight: 400;
@@ -84,10 +78,6 @@ ul li {
 }
 #signinInstead:hover {
   cursor: pointer;
-}
-
-#homeIcon {
-  width: 170px;
 }
 
 .bootcamp-img {
